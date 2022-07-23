@@ -5422,7 +5422,10 @@ static-hero-s4
   flex-wrap: wrap;
   margin: 0px -3px;
 }
-
+.instagram ul li img{
+  height: 70px;
+  object-fit: cover;
+}
 .wpo-site-footer .instagram ul li {
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -6049,6 +6052,7 @@ static-hero-s4
   transition: all 0.3s;
   transform: scale(0);
 }
+
 .wpo-portfolio-section .img-holder:hover {
   cursor: pointer;
 
@@ -6913,14 +6917,16 @@ static-hero-s4
   padding: 20px;
   background: #ca6f79;
 }
+
 /* .wpo-about-section .wpo-about-wrap .wpo-about-item .wpo-about-img img{
   height: 200px;
   width: 100%;
   object-fit: cover;
 } */
-.wpo-about-section .wpo-about-wrap .wpo-about-item-s2 .wpo-about-img img{
+.wpo-about-section .wpo-about-wrap .wpo-about-item-s2 .wpo-about-img img {
   height: 500px;
 }
+
 .wpo-about-section .wpo-about-wrap .about-single-item,
 .wpo-about-section-s2 .wpo-about-wrap .about-single-item {
   position: absolute;
@@ -6997,14 +7003,16 @@ static-hero-s4
   background: #fff;
   margin-bottom: 30px;
 } */
-.wpo-service-wrap .wpo-service-item .wpo-service-img img{
+.wpo-service-wrap .wpo-service-item .wpo-service-img img {
   height: 360px;
   width: 100%;
   object-fit: cover;
 }
+
 .wpo-service-wrap .wpo-service-item .wpo-service-img {
   position: relative;
 }
+
 .wpo-service-wrap .wpo-service-item .wpo-service-img .wpo-service-text {
   position: absolute;
   left: 50%;
@@ -7015,6 +7023,7 @@ static-hero-s4
   width: 240px;
   text-align: center;
 }
+
 @media (max-width: 1200px) {
 
   .wpo-service-section-s2 .wpo-service-wrap .wpo-service-item,
@@ -7171,6 +7180,9 @@ static-hero-s4
   border-radius: 50%;
   transform: scale(1);
   transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .wpo-team-section .wpo-team-wrap .wpo-team-item:hover .wpo-team-img img {
