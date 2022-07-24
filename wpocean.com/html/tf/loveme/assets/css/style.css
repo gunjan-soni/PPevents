@@ -3836,7 +3836,7 @@ img {
 .wpo-hero-slider .slide-title h2,
 .static-hero .slide-title h2,
 .wpo-hero-slider-s2 .slide-title h2 {
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 500;
   line-height: 60px;
   margin: 10px 0 35px;
@@ -12578,6 +12578,7 @@ static-hero-s4
   text-align: center;
   box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.1);
   padding: 40px;
+  height: 350px;
 }
 
 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon {
